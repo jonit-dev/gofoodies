@@ -115,9 +115,8 @@
                     <div class="col-md-12">
 
 
-                        <h1 class="text-center">Center Me!</h1>
-                        <p class="text-center">Quisque at tortor a libero posuere laoreet vitae sed arcu. Curabitur
-                            consequat.</p>
+                        <h1 class="text-center">Latest Jobs</h1>
+                        <p class="text-center">See what our freelancers visited recently</p>
 
                     </div>
                 </div>
@@ -126,7 +125,7 @@
                 <div class="row">
                     <div class="col-md-4">
 
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img class="card-img-top" src="{{asset('gfx/landing/homes/home1.png')}}" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Yaletown Apt</h4>
@@ -139,7 +138,7 @@
 
                     </div>
                     <div class="col-md-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img class="card-img-top" src="{{asset('gfx/landing/homes/home2.png')}}" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Downtown Condo</h4>
@@ -150,7 +149,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img class="card-img-top" src="{{asset('gfx/landing/homes/home3.png')}}" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Burnaby House</h4>
@@ -189,6 +188,10 @@
 
         var typed = new Typed(".calltoaction", options);
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script type="text/javascript" src="{{asset('js/landing.js')}}"></script>
+     <script type="text/javascript" src="{{asset('js/smooth-scroll.js')}}"></script>
+
 
 @endpush
 
