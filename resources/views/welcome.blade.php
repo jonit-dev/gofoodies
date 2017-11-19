@@ -15,7 +15,7 @@
 
 
                         <h1 class="panel-text text-center">
-                            Discover your new Home
+                          <span class="calltoaction"></span><div class="typed-cursor"></div>
                         </h1>
                         <p class="panel-subtext text-center">Just before your Move!</p>
 
@@ -56,7 +56,7 @@
                 <div class="row">
                     <div class="col-md-4">
 
-                        <div class="card"  >
+                        <div class="card card-without-border"  >
                             <div class="card-icon"><i class="fa fa-home" aria-hidden="true"></i></div>
                             <div class="card-body">
                                 <h4 class="card-title">Select Properties Visiting</h4>
@@ -72,7 +72,7 @@
 
                     <div class="col-md-4">
 
-                        <div class="card"  >
+                        <div class="card card-without-border"  >
                             <div class="card-icon"><i class="fa fa-binoculars" aria-hidden="true"></i></div>
                             <div class="card-body">
                                 <h4 class="card-title">Select a Freelancer</h4>
@@ -86,7 +86,7 @@
                     </div>
                     <div class="col-md-4">
 
-                        <div class="card">
+                        <div class="card card-without-border">
                             <div class="card-icon"><i class="fa fa-binoculars" aria-hidden="true"></i></div>
                             <div class="card-body">
                                 <h4 class="card-title">Select a Freelancer</h4>
@@ -175,6 +175,20 @@
 
 @push('customjs')
 
+    <script src="{{asset('bower_components/typed.js/lib/typed.min.js')}}"></script>
+
+    <script type="text/javascript">
+        var options = {
+            strings: ["Discover Your New Home ^2000\n", "Avoid Scams"],
+            typeSpeed: 80,
+            backSpeed: 40,
+            showCursor: true,
+            cursorChar: '|',
+            autoInsertCss: true,
+        };
+
+        var typed = new Typed(".calltoaction", options);
+    </script>
 
 @endpush
 
