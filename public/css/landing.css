@@ -1,3 +1,7 @@
+html,body {
+    width:100%;
+    height:100%;
+}
 
 
 .parallax {
@@ -6,9 +10,8 @@
     /* The image used */
     background-image: url("../gfx/landing/gastown.jpg");
 
-
     /* Set a specific height */
-    height: 35rem;
+    min-height: 35rem;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -17,34 +20,82 @@
     background-size: cover;
 
 
-
-
 }
 
+section {
+    width:100%;
+    height:100%;
+}
+
+.section-padding {
+    padding-top:3rem;
+}
+
+
+
+
 .panel-text {
+    margin-top:5%;
     color:white;
     font-size:3rem;
     text-transform: uppercase;
     font-weight: bold;
 }
 .panel-subtext {
+    color:silver;
     font-size:1.5rem;
 
 }
 
 
-section {
-    padding:3rem;
-}
 
 
-#latest-projects {
 
-    width: 100%;
-    height:40rem;
-}
+
 
 .card-icon {
-    font-size:8rem;
+    font-size: 6rem;
     text-align: center;
+}
+
+
+
+
+
+/*MOUSE SCROLL*/
+
+.scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 8rem;
+    left: 0;
+    margin: auto;
+
+    width :34px;
+    height: 55px;
+}
+.mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+}
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
 }

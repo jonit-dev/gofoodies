@@ -9,10 +9,11 @@
 
 
 
-@stack('customjs')
 
 
 @include('landing.layouts.footer')
+
+@stack('customjs')
 </body>
 </html>
 
