@@ -1,5 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-    <a class="navbar-brand" href="#">Before I Move</a>
+    <a class="navbar-brand" href="#">
+        <img src="{{asset('gfx/landing/logo-bim.png')}}" alt="">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation" style="">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -10,13 +12,13 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="btn-howitworks" href="#howitworks">How it Works?</a>
+                <a class="nav-link" href="#howitworks">How it Works?</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#latest-projects">Visits</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#latest-freelancers">Freelancers</a>
             </li>
         </ul>
         <button class="btn btn-outline-light my-2 my-sm-0">Login</button>
