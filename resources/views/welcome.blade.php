@@ -343,6 +343,7 @@
     </section>
 
 
+
         <section id="latest-projects">
 
             <div class="container">
@@ -413,7 +414,7 @@
 
     <script type="text/javascript">
         var options = {
-            strings: ["See if a Real Estate Listing Really Exists^2000\n", "Avoid Scams", "Hire Trusted Freelancers"],
+            strings: ["Check Real Estate Listings^2000\n", "Avoid Scams", "Hire Trusted Freelancers"],
             typeSpeed: 80,
             backSpeed: 40,
             showCursor: true,

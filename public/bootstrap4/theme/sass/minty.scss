@@ -11,14 +11,38 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 
 $font-family-sans-serif: $web-font-path;
 
+//LOGO ====================================================================
+
+.nav-logo {
+  margin-bottom: .3rem;
+}
+
 // Navbar ======================================================================
 
 .navbar {
   font-family: $headings-font-family;
+
+}
+
+.nav-item {
+  .nav-link {
+    color: $coal !important;
+  }
+  .nav-link:hover {
+    color: $secondary !important;
+  }
+}
+
+.nav-item {
+  margin-left:1rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(84, 84, 84, 0.6)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
 
 .bg-dark {
-  background-color: $secondary !important;
+  background-color: $primary !important;
 }
 
 .border-dark {
@@ -32,7 +56,33 @@ $font-family-sans-serif: $web-font-path;
 .btn {
   &-secondary {
     background-color: $primary;
+    color: $secondary !important;
   }
+  &-secondary:hover {
+    color: $white !important;
+  }
+
+  &-danger {
+    background-color: $secondary;
+    border-color: $secondary;
+  }
+
+  &-danger:hover {
+    background-color: $vine;
+    border-color: $vine;
+  }
+
+  &-danger:active {
+    background-color: $vine !important;
+    border-color: $vine !important;
+  }
+
+
+
+}
+
+#login {
+  margin-left:2rem;
 }
 
 .btn {

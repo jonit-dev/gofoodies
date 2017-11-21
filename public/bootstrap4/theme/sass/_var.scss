@@ -28,8 +28,8 @@ $green:   #56CC9D !default;
 $teal:    #20c997 !default;
 $cyan:    #6CC3D5 !default;
 
-$primary:       #78C2AD !default;
-$secondary:     #F3969A !default;
+$primary:       #fbfdfd !default;
+$secondary:     #f04242 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -37,8 +37,12 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
+
+//*BeforeIMove Colors
+$coal: #545454;
+$vine: #c93c3c;
+
 //buttons
-$btn-default: #dc3545;
 
 // Body
 
@@ -52,7 +56,7 @@ $border-radius-sm:            .3rem !default;
 
 // Fonts
 
-$headings-font-family:        "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$headings-font-family:        "Montserr4at", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $headings-color:              $gray-700 !default;
 
 // Tables

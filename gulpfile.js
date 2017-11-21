@@ -23,10 +23,8 @@ gulp.task('scripts', function () {
 //Styles
 gulp.task('styles', function () {
 
-    return sass('public/bootstrap4/theme/sass/*.scss', {
-        // style:'compressed'
-    })
-        .pipe(gulp.dest('public/bootstrap4/theme/css/'))
+    return sass('public/bootstrap4/theme/sass/*.scss')
+        .pipe(gulp.dest('public/build/css/'))
         .pipe(livereload());
 });
 

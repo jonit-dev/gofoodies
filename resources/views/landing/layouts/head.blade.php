@@ -16,10 +16,9 @@
     <link rel="stylesheet" href="{{asset('bootstrap4/theme/css/minty-bootstrap.css')}}">
 
     <!--BOOTSTRAP THEME -->
-    <link rel="stylesheet" href="{{asset('bootstrap4/theme/css/minty.css')}}">
+    <link rel="stylesheet" href="{{asset('build/css/minty.css')}}">
 
 
     @stack('customhead')
 
-    <link rel="stylesheet" href="{{asset('css/beforeimove-theme.css')}}">
 </head>
