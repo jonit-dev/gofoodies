@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.navbar {
+  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+.bg-dark {
+  background-color: #F3969A !important; }
+
+.border-dark {
+  border-color: #F3969A !important; }
+
+.btn-secondary {
+  background-color: #78C2AD; }
+
+.btn {
+  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  .btn, .btn:hover {
+    color: #fff; }
+  .btn-link, .btn-link:hover {
+    color: #78C2AD; }
+  .btn-link.disabled:hover {
+    color: #888; }
+  .btn-outline-primary {
+    color: #78C2AD; }
+  .btn-outline-secondary {
+    color: #F3969A; }
+  .btn-outline-success {
+    color: #56CC9D; }
+  .btn-outline-info {
+    color: #6CC3D5; }
+  .btn-outline-warning {
+    color: #FFCE67; }
+  .btn-outline-danger {
+    color: #FF7851; }
+  .btn-outline-dark {
+    color: #343a40; }
+  .btn-outline-light {
+    color: #f8f9fa; }
+
+.table-success, .table-info, .table-warning, .table-danger {
+  color: #fff; }
+.table-success, .table-success > th, .table-success > td {
+  background-color: #56CC9D; }
+.table-info, .table-info > th, .table-info > td {
+  background-color: #6CC3D5; }
+.table-danger, .table-danger > th, .table-danger > td {
+  background-color: #FF7851; }
+.table-warning, .table-warning > th, .table-warning > td {
+  background-color: #FFCE67; }
+.table-hover .table-success:hover, .table-hover .table-success:hover > th, .table-hover .table-success:hover > td {
+  background-color: #42c692; }
+.table-hover .table-info:hover, .table-hover .table-info:hover > th, .table-hover .table-info:hover > td {
+  background-color: #58bbcf; }
+.table-hover .table-danger:hover, .table-hover .table-danger:hover > th, .table-hover .table-danger:hover > td {
+  background-color: #ff6438; }
+.table-hover .table-warning:hover, .table-hover .table-warning:hover > th, .table-hover .table-warning:hover > td {
+  background-color: #ffc64e; }
+.table .thead-dark th {
+  background-color: #78C2AD;
+  border-color: rgba(0, 0, 0, 0.05);
+  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+legend {
+  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+.dropdown-menu {
+  font-family: "https://fonts.googleapis.com/css?family=Montserrat"; }
+
+.breadcrumb a {
+  color: rgba(255, 255, 255, 0.6); }
+.breadcrumb a:hover {
+  color: #fff;
+  text-decoration: none; }
+
+.pagination .page-link:hover {
+  text-decoration: none; }
+
+.alert {
+  color: #fff; }
+  .alert h1, .alert h2, .alert h3, .alert h4, .alert h5, .alert h6 {
+    color: inherit; }
+  .alert a,
+  .alert .alert-link {
+    color: #fff; }
+  .alert-success, .alert-success > th, .alert-success > td {
+    background-color: #56CC9D; }
+  .alert-info, .alert-info > th, .alert-info > td {
+    background-color: #6CC3D5; }
+  .alert-danger, .alert-danger > th, .alert-danger > td {
+    background-color: #FF7851; }
+  .alert-warning, .alert-warning > th, .alert-warning > td {
+    background-color: #FFCE67; }
+
+.badge {
+  color: #fff; }
+  .badge-light {
+    color: #5a5a5a; }
+
+.list-group-item h1, .list-group-item h2, .list-group-item h3, .list-group-item h4, .list-group-item h5, .list-group-item h6 {
+  color: inherit; }

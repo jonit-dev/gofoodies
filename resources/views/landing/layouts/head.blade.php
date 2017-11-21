@@ -9,11 +9,14 @@
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
+    <!--Live reload-->
+    <script src="http://localhost:35729/livereload.js?snipver=1"></script>﻿
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{asset('bootstrap4/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('bootstrap4/theme/css/minty-bootstrap.css')}}">
 
     <!--BOOTSTRAP THEME -->
-    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('bootstrap4/theme/css/minty.css')}}">
 
 
     @stack('customhead')
