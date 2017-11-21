@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{asset('bootstrap4/css/bootstrap.min.css')}}">
 
     <!--BOOTSTRAP THEME -->
-    <link rel="stylesheet" href="{{asset('bootstrap4/theme/sandstone.css')}}">
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
 
 
     @stack('customhead')

@@ -124,7 +124,7 @@
             <br>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
 
                     <div class="card card-without-border">
                         <img class="card-img-top rounded-circle "
@@ -174,7 +174,7 @@
 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3">
 
                     <div class="card card-without-border">
                         <img class="card-img-top rounded-circle "
@@ -227,7 +227,61 @@
 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3">
+
+                    <div class="card card-without-border">
+                        <img class="card-img-top rounded-circle "
+                             src="{{asset('gfx/landing/freelancers/freelancer3.png')}}" alt="Card image cap">
+                        <div class="card-body">
+
+                            <h4 class="card-title">João Paulo
+
+                                <div class="star">
+                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
+                                </div>
+                                <div class="star">
+                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
+                                </div>
+
+                            </h4>
+                            <p class="card-text">
+
+                            <ul class="rating-list">
+                                <li>
+                                    <i class="fa fa-compass rating-font" aria-hidden="true"></i>
+                                    <div class="rating-item"><b>Visited Properties:</b> 20</div>
+                                </li>
+                                <li>
+                                    <i class="fa fa-camera-retro" style="font-size:1rem;" aria-hidden="true"></i>
+                                    <div style=" margin-top:-1.4rem;
+    margin-left:1.3rem;"><b>Pictures</b></div>
+                                </li>
+                                <li>
+                                    <i class="fa fa-video-camera" style="font-size:1rem;" aria-hidden="true"></i>
+                                    <div style=" margin-top:-1.4rem;
+    margin-left:1.3rem;"><b>Video</b></div>
+                                </li>
+
+                            </ul>
+
+
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
 
                     <div class="card card-without-border">
                         <img class="card-img-top rounded-circle "
