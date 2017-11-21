@@ -109,6 +109,46 @@
             </div>
         </section>
 
+    <section class="section-padding" id="whybeforeimove">
+        <div class="container">
+            <div class="row justify-content-md-start align-items-start">
+                <div class="col-md-12">
+
+
+                    <h1 class="text-center">Why Before I Move?</h1>
+                    <p class="text-center">Check our main benefits</p>
+
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <h2><b>Avoid Scams of Online Real Estate Ads</b></h2>
+
+                    <p>Before commiting to any contract to rent a property overseas (and even in another cities), hire
+                        our trusted freelancers
+                        to take a look at it, chat with the landlord, give opinions and tips about the neighborhood and,
+                        mainly,
+                        provide you with videos and pictures that proofs that the <b>real estate really exists</b></p>
+
+                </div>
+                <div class="col-md-6">
+
+                    <img src="{{asset('gfx/landing/house.jpg')}}" alt="">
+
+                </div>
+
+            </div>
+            <br>
+
+
+        </div>
+    </section>
+
     <section id="latest-freelancers">
 
         <div class="container">
