@@ -1,7 +1,9 @@
 var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     sass = require('gulp-ruby-sass'),
-    livereload = require('gulp-livereload')
+    livereload = require('gulp-livereload'),
+    imagemin = require('gulp-imagemin'),
+    prefix = require('gulp-autoprefixer')
 ;
 
 
@@ -12,10 +14,19 @@ var gulp = require('gulp'),
 |
 */
 
+
+//Image Task
+gulp.task('image',function(){
+     gulp.src('public/gfx/**/*')
+         .pipe(imagemin())
+         .pipe(gulp.dest('public/gfx'))
+
+
+});
+
 //Script task
 gulp.task('scripts', function () {
     gulp.src('public/js/*.js')
-
         .pipe(uglify())
         .pipe(gulp.dest('public/build/js'))
 });
@@ -24,6 +35,7 @@ gulp.task('scripts', function () {
 gulp.task('styles', function () {
 
     return sass('public/bootstrap4/theme/sass/*.scss')
+        .pipe(prefix('last 2 versions')) //add browser support
         .pipe(gulp.dest('public/build/css/'))
         .pipe(livereload());
 });
@@ -36,7 +48,7 @@ gulp.task('styles', function () {
 */
 
 //DEFAULT GULP TASK
-gulp.task('default', ['scripts', 'styles', 'watch']);
+gulp.task('default', ['scripts', 'styles', 'watch', 'image']);
 
 
 //Watch task

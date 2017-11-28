@@ -17,10 +17,10 @@
                         <h1 class="panel-text text-center">
                           <span class="calltoaction"></span><div class="typed-cursor"></div>
                         </h1>
-                        <p class="panel-subtext text-center">Just before your move!</p>
+                        <p class="panel-subtext text-center">Only hand-picked restaurants in your region</p>
 
                         <center>
-                            <button class="btn btn-danger">Create Your Account</button>
+                            <a class="btn btn-danger" href="{{route('register-user')}}">Create Your Account</a>
                         </center>
 
                     </div>
@@ -47,53 +47,81 @@
 
 
                         <h1 class="text-center">How it Works?</h1>
-                        <p class="text-center">Checkout if a website property listing really exists. Avoid scams before
-                            committing to a contract!</p>
+                        <p class="text-center">Avoid overspending in your favorite restaurants</p>
 
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4">
-
-                        <div class="card card-without-border"  >
-                            <div class="card-icon"><i class="fa fa-home" aria-hidden="true"></i></div>
-                            <div class="card-body">
-                                <h4 class="card-title">Select Properties for Visiting</h4>
-                                <p class="card-text">
-                                    Prepare a list of property or even neighborhoods for visiting, so our freelancers could
-                                    give you their offers
-                                </p>
-                            </div>
-                        </div>
 
 
-                    </div>
-
-                    <div class="col-md-4">
-
-                        <div class="card card-without-border"  >
-                            <div class="card-icon"><i class="fa fa-binoculars" aria-hidden="true"></i></div>
-                            <div class="card-body">
-                                <h4 class="card-title">Hire a Trusted Freelancer</h4>
-                                <p class="card-text">
-                                    Take a look in the reviews and decide among many offers which one best fits your
-                                    needs
-                                </p>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
                         <div class="card card-without-border">
-                            <div class="card-icon"><i class="fa fa-video-camera" aria-hidden="true"></i></div>
+                            <div class="card-icon">
+                                <img src="{{asset('gfx/landing/icons/member.png')}}" class="img-responsive center-block"
+                                     width="40%" height="100%" alt="">
+                            </div>
                             <div class="card-body">
-                                <h4 class="card-title">Receive Your Videos & Pictures</h4>
+                                <h4 class="card-title">Join our Membership program</h4>
                                 <p class="card-text">
-                                    You can ask for the freelancers for standard videos, pictures,
-                                    360 videos or even a drone image of the property!
+                                    For a small annual fee you can join our club and start enjoying all of your
+                                    restaurant discounts.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="card card-without-border">
+                            <div class="card-icon">
+                                <img src="{{asset('gfx/landing/icons/find-restaurant.png')}}"
+                                     class="img-responsive center-block" width="40%" height="100%" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Find an associated Restaurant</h4>
+                                <p class="card-text">
+                                    For a small annual fee you can join our club and start enjoying all of your
+                                    restaurant discounts.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="card card-without-border">
+                            <div class="card-icon">
+                                <img src="{{asset('gfx/landing/icons/show-id.png')}}" class="img-responsive center-block"
+                                     width="40%" height="100%" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Show your Identification</h4>
+                                <p class="card-text">
+                                    As soon as you arrive in the associated restaurant, show you SIN number to the waiter or manager.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="card card-without-border">
+                            <div class="card-icon">
+                                <img src="{{asset('gfx/landing/icons/enjoy.png')}}"
+                                     class="img-responsive center-block" width="40%" height="100%" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Enjoy your Meal</h4>
+                                <p class="card-text">
+                                    Find out all of the different cuisines that our associated restaurants offers
                                 </p>
                             </div>
                         </div>
@@ -103,19 +131,16 @@
 
 
                 </div>
-                <br>
-
-
             </div>
         </section>
 
-    <section class="section-padding" id="whybeforeimove">
+    <section class="section-padding section-dark" id="benefits">
         <div class="container">
             <div class="row justify-content-md-start align-items-start">
                 <div class="col-md-12">
 
 
-                    <h1 class="text-center">Why Before I Move?</h1>
+                    <h1 class="text-center">Why be a Member?</h1>
                     <p class="text-center">Check our main benefits</p>
 
                 </div>
@@ -138,7 +163,8 @@
                 </div>
                 <div class="col-md-6">
 
-                    <img src="{{asset('gfx/landing/house.jpg')}}" alt="">
+                    <img src="{{asset('gfx/landing/house.jpg')}}" class="img-responsive" width="100%" height="100%"
+                         alt="">
 
                 </div>
 
@@ -454,7 +480,7 @@
 
     <script type="text/javascript">
         var options = {
-            strings: ["Check Real Estate Listings^2000\n", "Avoid Scams", "Hire Trusted Freelancers"],
+            strings: ["Save from 30-50% in Restaurants^2000\n", "Join our exclusive Membership", "Eat more, spend less"],
             typeSpeed: 80,
             backSpeed: 40,
             showCursor: true,

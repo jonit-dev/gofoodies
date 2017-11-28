@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="{{url('')}}">
+    <a class="navbar-brand" href="{{url('/')}}">
         <img src="{{asset('gfx/landing/logo.png')}}" class="nav-logo" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +12,7 @@
                 <a class="nav-link" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#whybeforeimove">Why BeforeIMove?</a>
+                <a class="nav-link" href="#benefits">Why be a Member?</a>
             </li>
 
             <li class="nav-item">

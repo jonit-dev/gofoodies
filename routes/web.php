@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing.index');
+});
+
+Route::group(['prefix' => 'auth', 'namespace' => 'Session'], function () {
+
+  Route::get('/register','RegisterController@create')->name('register-user');
+        
+
+
+
 });

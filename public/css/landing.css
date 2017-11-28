@@ -8,10 +8,12 @@ html,body {
 
 
     /* The image used */
-    background-image: url("../gfx/landing/vancouver.jpg");
+    background-image: url("../gfx/landing/background-picture.jpg");
 
     /* Set a specific height */
     min-height: 35rem;
+
+    max-width: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -29,7 +31,11 @@ section {
 }
 
 .section-padding {
-    padding-top:1.5rem;
+    padding-top:2rem;
+}
+
+.section-dark {
+    background-color: #efefef;
 }
 
 
@@ -51,6 +57,13 @@ section {
 
 .card {
     margin-top:2rem;
+    /*background-color:red;*/
+    padding-top:2rem;
+    width:15rem;
+}
+
+.card-body {
+    text-align: center;
 }
 
 .card-without-border {
@@ -59,7 +72,7 @@ section {
 
 
 .card-icon {
-    font-size: 6rem;
+    /*background-color:red;*/
     text-align: center;
 }
 
@@ -150,4 +163,9 @@ list-style: none
 .rating-item{
     margin-top:-1.5rem;
     margin-left:1.3rem;
+}
+
+
+.internal-page {
+    margin-top:3rem;
 }
