@@ -11,19 +11,23 @@
             <li class="nav-item active">
                 <a class="nav-link" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#howitworks">How it Works?</a>
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="#benefits">Why be a Member?</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#howitworks">How it Works?</a>
+                <a class="nav-link" href="#restaurants">Restaurants</a>
             </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="#latest-freelancers">Freelancers</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#latest-projects">Latest Visits</a>
-            </li>
+
         </ul>
 
         <button class="btn btn-outline-secondary right-align" id="login" type="button">Login</button>

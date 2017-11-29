@@ -84,8 +84,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Find an associated Restaurant</h4>
                                 <p class="card-text">
-                                    For a small annual fee you can join our club and start enjoying all of your
-                                    restaurant discounts.
+                                    Search our restaurant list and find the one that best suit your needs.
                                 </p>
                             </div>
                         </div>
@@ -121,7 +120,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Enjoy your Meal</h4>
                                 <p class="card-text">
-                                    Find out all of the different cuisines that our associated restaurants offers
+                                    Appreciate many different cuisine types, at a fair price!
                                 </p>
                             </div>
                         </div>
@@ -152,18 +151,23 @@
 
                 <div class="col-md-6">
 
-                    <h2><b>Avoid Scams of Online Real Estate Ads</b></h2>
+                    <h2><b>Eating out is no longer a luxury</b></h2>
 
-                    <p>Before commiting to any contract to rent a property overseas (and even in another cities), hire
-                        our trusted freelancers
-                        to take a look at it, chat with the landlord, give opinions and tips about the neighborhood and,
-                        mainly,
-                        provide you with videos and pictures that proofs that the <b>real estate really exists</b></p>
+                    <p>Awesome discounts to our members at restaurants of different types spread out throughout the
+                        city. Eating out is no longer a luxury for the few!
+                        <b>Quickly, you will recover the amount invested in your annuity</b>, enjoying quality food
+                        while saving money.</p>
+
+                    <hr>
+
+                    <a class="btn btn-danger" href="{{route('register-user')}}">Create your Account</a>
+
 
                 </div>
                 <div class="col-md-6">
 
-                    <img src="{{asset('gfx/landing/house.jpg')}}" class="img-responsive" width="100%" height="100%"
+                    <img src="{{asset('gfx/landing/restaurant.jpg')}}" class="img-responsive rounded" width="100%"
+                         height="90%"
                          alt="">
 
                 </div>
@@ -175,299 +179,110 @@
         </div>
     </section>
 
-    <section id="latest-freelancers">
+    <section id="restaurants">
 
         <div class="container">
             <div class="row justify-content-md-start align-items-start">
                 <div class="col-md-12">
-
-
-                    <h1 class="text-center">Latest Freelancers</h1>
-                    <p class="text-center">Take a Look At Our Trusted Freelancers</p>
+                    <h1 class="text-center">Featured Restaurants</h1>
+                    <p class="text-center">Our premium associates</p>
 
                 </div>
             </div>
             <br>
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-12">
 
-                    <div class="card card-without-border">
-                        <img class="card-img-top rounded-circle "
-                             src="{{asset('gfx/landing/freelancers/freelancer1.png')}}" alt="Card image cap">
-                        <div class="card-body">
-
-                            <h4 class="card-title">Noah Jones
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/non-star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-
-                            </h4>
-                            <p class="card-text">
-
-                            <ul class="rating-list">
-                                <li>
-                                    <i class="fa fa-compass rating-font" aria-hidden="true"></i>
-                                    <div class="rating-item"><b>Completed Jobs:</b> 39</div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-camera-retro" style="font-size:1rem;" aria-hidden="true"></i>
-                                    <div style=" margin-top:-1.4rem;
-    margin-left:1.3rem;"><b>Pictures</b></div>
-                                </li>
-
-
-                            </ul>
-
-
-                            </p>
-
-                        </div>
+                    <div class="row justify-content-center align-items-center">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
                     </div>
 
+                    <div class="row justify-content-center align-items-center">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                    </div>
 
                 </div>
 
-                <div class="col-md-3">
-
-                    <div class="card card-without-border">
-                        <img class="card-img-top rounded-circle "
-                             src="{{asset('gfx/landing/freelancers/freelancer2.png')}}" alt="Card image cap">
-                        <div class="card-body">
-
-                            <h4 class="card-title">Sarah Cristina
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                            </h4>
-                            <p class="card-text">
-
-                            <ul class="rating-list">
-                                <li>
-                                    <i class="fa fa-compass rating-font" aria-hidden="true"></i>
-                                    <div class="rating-item"><b>Visited Properties:</b> 17</div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-camera-retro" style="font-size:1rem;" aria-hidden="true"></i>
-                                    <div style=" margin-top:-1.4rem;
-    margin-left:1.3rem;"><b>Pictures</b></div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-video-camera" style="font-size:1rem;" aria-hidden="true"></i>
-                                    <div style=" margin-top:-1.4rem;
-    margin-left:1.3rem;"><b>Video</b></div>
-                                </li>
-
-                            </ul>
+            </div>
 
 
-                            </p>
+        </div>
 
-                        </div>
-                    </div>
 
+    </section>
+
+
+    <section id="when-to-go" class="section-dark section-padding">
+
+        <div class="container">
+            <div class="row justify-content-md-start align-items-start">
+                <div class="col-md-12">
+
+
+                    <h1 class="text-center">Every occasion</h1>
+                    <p class="text-center">Friends, family or just chilling and appreciating the city</p>
 
                 </div>
+            </div>
+            <br>
 
-                <div class="col-md-3">
-
-                    <div class="card card-without-border">
-                        <img class="card-img-top rounded-circle "
-                             src="{{asset('gfx/landing/freelancers/freelancer3.png')}}" alt="Card image cap">
-                        <div class="card-body">
-
-                            <h4 class="card-title">João Paulo
-
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-
-                            </h4>
-                            <p class="card-text">
-
-                            <ul class="rating-list">
-                                <li>
-                                    <i class="fa fa-compass rating-font" aria-hidden="true"></i>
-                                    <div class="rating-item"><b>Visited Properties:</b> 20</div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-camera-retro" style="font-size:1rem;" aria-hidden="true"></i>
-                                    <div style=" margin-top:-1.4rem;
-    margin-left:1.3rem;"><b>Pictures</b></div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-video-camera" style="font-size:1rem;" aria-hidden="true"></i>
-                                    <div style=" margin-top:-1.4rem;
-    margin-left:1.3rem;"><b>Video</b></div>
-                                </li>
-
-                            </ul>
+            <div class="row h-100 justify-content-center align-items-center">
 
 
-                            </p>
-
-                        </div>
+                <div class="thumbnail text-center">
+                    <img src="{{asset('gfx/landing/occasions/chill.png')}}" alt="" class="img-responsive rounded">
+                    <div class="caption">
+                        <p>CHILLING OUTSIDE</p>
                     </div>
-
-
                 </div>
-                <div class="col-md-3">
-
-                    <div class="card card-without-border">
-                        <img class="card-img-top rounded-circle "
-                             src="{{asset('gfx/landing/freelancers/freelancer3.png')}}" alt="Card image cap">
-                        <div class="card-body">
-
-                            <h4 class="card-title">João Paulo
-
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-                                <div class="star">
-                                    <img src="{{asset('gfx/rating/star.png')}}" alt="">
-                                </div>
-
-                            </h4>
-                            <p class="card-text">
-
-                            <ul class="rating-list">
-                                <li>
-                                    <i class="fa fa-compass rating-font" aria-hidden="true"></i>
-                                    <div class="rating-item"><b>Visited Properties:</b> 20</div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-camera-retro" style="font-size:1rem;" aria-hidden="true"></i>
-                                    <div style=" margin-top:-1.4rem;
-    margin-left:1.3rem;"><b>Pictures</b></div>
-                                </li>
-                                <li>
-                                    <i class="fa fa-video-camera" style="font-size:1rem;" aria-hidden="true"></i>
-                                    <div style=" margin-top:-1.4rem;
-    margin-left:1.3rem;"><b>Video</b></div>
-                                </li>
-
-                            </ul>
 
 
-                            </p>
-
-                        </div>
+                <div class="thumbnail text-center">
+                    <img src="{{asset('gfx/landing/occasions/chill.png')}}" alt="" class="img-responsive rounded">
+                    <div class="caption">
+                        <p>CHILLING OUTSIDE</p>
                     </div>
+                </div>
 
 
+                <div class="thumbnail text-center">
+                    <img src="{{asset('gfx/landing/occasions/chill.png')}}" alt="" class="img-responsive rounded">
+                    <div class="caption">
+                        <p>CHILLING OUTSIDE</p>
+                    </div>
                 </div>
 
 
             </div>
+
+
+        </div>
 
 
     </section>
 
 
 
-        <section id="latest-projects">
 
-            <div class="container">
-                <div class="row justify-content-md-start align-items-start">
-                    <div class="col-md-12">
-
-
-                        <h1 class="text-center">Latest Visits</h1>
-                        <p class="text-center">See what our freelancers visited recently</p>
-
-                    </div>
-                </div>
-                <br>
-
-                <div class="row">
-                    <div class="col-md-4">
-
-                        <div class="card">
-                            <img class="card-img-top" src="{{asset('gfx/landing/homes/home1.png')}}" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Yaletown Apt</h4>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="{{asset('gfx/landing/homes/home2.png')}}" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Downtown Condo</h4>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="{{asset('gfx/landing/homes/home3.png')}}" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Burnaby House</h4>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-
-        </section>
 
 
 
