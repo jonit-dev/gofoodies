@@ -6,6 +6,23 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav left-align">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    <i class="fa fa-map-marker" aria-hidden="true" style="margin-right:.2rem"></i>
+                  Vancouver
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">DownTown</a>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
     <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
@@ -25,7 +42,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#latest-freelancers">Freelancers</a>
+                <a class="nav-link" href="#when-to-use">When to Use</a>
             </li>
 
         </ul>

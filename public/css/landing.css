@@ -79,7 +79,7 @@ section {
 .img-restaurant {
     width:7rem;
     height:7rem;
-    margin:2rem;
+    margin:1.5rem;
 }
 
 
@@ -93,7 +93,7 @@ section {
 
 .caption {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 0;
     width: 100%;
 }
@@ -102,8 +102,6 @@ section {
     color:white;
     font-size:1.5rem;
 }
-
-
 
 
 
@@ -195,4 +193,45 @@ list-style: none
 
 .internal-page {
     margin-top:3rem;
+}
+
+/*
+FOOTER
+*/
+footer {
+    padding:2rem;
+    color:white;
+    background-color: #545454;
+    width:100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    margin-top:.3rem;
+}
+
+
+.footer-list-title {
+    color:#827f7f;
+    font-weight: bold;
+    font-size:1.3rem;
+    margin:.8rem;
+}
+
+.footer-icon {
+    margin:.3rem;
+    font-size:2rem;
+}
+
+.footer-link {
+    color:white !important;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: none;
 }

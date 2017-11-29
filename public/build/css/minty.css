@@ -5,6 +5,20 @@
 body {
   color: #343a40; }
 
+a {
+  color: #f04242; }
+  a:hover {
+    color: #f04242; }
+  a:active {
+    color: #f04242; }
+
+footer > a {
+  color: #fff !important; }
+  footer > a:hover {
+    color: #fff !important; }
+  footer > a:active {
+    color: #fff !important; }
+
 .navbar {
   font-family: "Montserr4at", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
@@ -25,8 +39,28 @@ body {
 .border-dark {
   border-color: #f04242 !important; }
 
+.btn-primary {
+  background-color: #ffa736 !important;
+  color: #fff !important;
+  border-color: #ffbd68 !important; }
+.btn-primary:hover {
+  background-color: #ffa736 !important;
+  color: #fff !important;
+  border-color: #ffbd68 !important; }
+.btn-primary:focus, .btn .btn-primary.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 189, 104, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 189, 104, 0.5) !important; }
+.btn-primary.disabled, .btn .btn-primary:disabled {
+  background-color: #ffa736 !important;
+  border-color: #ffbd68 !important; }
+.btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff !important;
+  background-color: #ffa736 !important;
+  border-color: #ffbd68 !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 189, 104, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 189, 104, 0.5) !important; }
 .btn-secondary {
-  background-color: #fbfdfd;
+  background-color: #ffa736;
   color: #f04242 !important; }
 .btn-secondary:hover {
   color: #fff !important; }
@@ -48,11 +82,11 @@ body {
   .btn, .btn:hover {
     color: #fff; }
   .btn-link, .btn-link:hover {
-    color: #fbfdfd; }
+    color: #ffa736; }
   .btn-link.disabled:hover {
     color: #888; }
   .btn-outline-primary {
-    color: #fbfdfd; }
+    color: #ffa736; }
   .btn-outline-secondary {
     color: #f04242; }
   .btn-outline-success {
@@ -87,7 +121,7 @@ body {
 .table-hover .table-warning:hover, .table-hover .table-warning:hover > th, .table-hover .table-warning:hover > td {
   background-color: #ffc64e; }
 .table .thead-dark th {
-  background-color: #fbfdfd;
+  background-color: #ffa736;
   border-color: rgba(0, 0, 0, 0.05);
   font-family: "Montserr4at", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
@@ -95,7 +129,10 @@ legend {
   font-family: "Montserr4at", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 
 .dropdown-menu {
-  font-family: "https://fonts.googleapis.com/css?family=Montserrat"; }
+  font-family: "Montserr4at", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+.dropdown-item:hover {
+  background-color: #f04242 !important; }
 
 .breadcrumb a {
   color: rgba(255, 255, 255, 0.6); }

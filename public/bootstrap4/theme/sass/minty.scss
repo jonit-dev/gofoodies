@@ -23,6 +23,32 @@ body {
   color: $dark;
 }
 
+a {
+  color: $secondary;
+
+  &:hover {
+    color: $secondary;
+  }
+
+  &:active {
+    color: $secondary;
+  }
+}
+
+
+footer > a {
+  color: $white !important;
+
+  &:hover {
+    color: $white !important;
+  }
+
+  &:active {
+    color: $white !important;
+  }
+}
+
+
 
 // Navbar ======================================================================
 
@@ -61,6 +87,40 @@ body {
 
 //BUTTONS ================
 .btn {
+
+
+
+  &-primary {
+    background-color: $primary !important;
+    color: $white !important;
+    border-color: $primary-light !important;
+  }
+
+  &-primary:hover {
+    background-color: $primary !important;
+    color: $white !important;
+    border-color: $primary-light !important;
+  }
+
+  &-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 189, 104, 0.5) !important;
+  }
+
+  &-primary.disabled, .btn-primary:disabled {
+    background-color: $primary !important;
+    border-color: $primary-light !important;
+  }
+
+  &-primary:not([disabled]):not(.disabled):active, &-primary:not([disabled]):not(.disabled).active,
+  .show > &-primary.dropdown-toggle {
+    color: $white !important;
+    background-color: $primary !important;
+    border-color: $primary-light !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 189, 104, 0.5) !important;
+  }
+
+
+
   &-secondary {
     background-color: $primary;
     color: $secondary !important;
@@ -222,7 +282,11 @@ legend {
 // Navs ========================================================================
 
 .dropdown-menu {
-  font-family: $font-family-sans-serif;
+  font-family: $headings-font-family;
+}
+
+.dropdown-item:hover {
+  background-color:$secondary !important;
 }
 
 .breadcrumb {

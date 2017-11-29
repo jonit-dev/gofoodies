@@ -161,6 +161,7 @@
                     <hr>
 
                     <a class="btn btn-danger" href="{{route('register-user')}}">Create your Account</a>
+                    <br><br>
 
 
                 </div>
@@ -205,9 +206,13 @@
                              src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
                         <img class="img-responsive rounded img-restaurant"
                              src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
                     </div>
 
                     <div class="row justify-content-center align-items-center">
+                        <img class="img-responsive rounded img-restaurant"
+                             src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
                         <img class="img-responsive rounded img-restaurant"
                              src="{{asset('gfx/landing/thumbnail/thumb-example.png')}}">
                         <img class="img-responsive rounded img-restaurant"
@@ -231,7 +236,7 @@
     </section>
 
 
-    <section id="when-to-go" class="section-dark section-padding">
+    <section id="when-to-use" style="margin-bottom: 0; padding-bottom: 2rem;" class="section-dark section-padding">
 
         <div class="container">
             <div class="row justify-content-md-start align-items-start">
@@ -249,27 +254,30 @@
 
 
                 <div class="thumbnail text-center">
-                    <img src="{{asset('gfx/landing/occasions/chill.png')}}" alt="" class="img-responsive rounded">
+                    <img src="{{asset('gfx/landing/occasions/friends.jpg')}}" alt="" class="img-responsive rounded">
                     <div class="caption">
-                        <p>CHILLING OUTSIDE</p>
+                        <p>HANGING OUT WITH YOUR FRIENDS</p>
                     </div>
                 </div>
 
 
                 <div class="thumbnail text-center">
-                    <img src="{{asset('gfx/landing/occasions/chill.png')}}" alt="" class="img-responsive rounded">
+                    <img src="{{asset('gfx/landing/occasions/chill.jpg')}}" alt="" class="img-responsive rounded">
                     <div class="caption">
                         <p>CHILLING OUTSIDE</p>
                     </div>
                 </div>
-
 
                 <div class="thumbnail text-center">
-                    <img src="{{asset('gfx/landing/occasions/chill.png')}}" alt="" class="img-responsive rounded">
+                    <img src="{{asset('gfx/landing/occasions/romantic.jpg')}}" alt="" class="img-responsive rounded">
                     <div class="caption">
-                        <p>CHILLING OUTSIDE</p>
+                        <p>ROMANTIC DINNERS</p>
                     </div>
                 </div>
+
+
+
+
 
 
             </div>
@@ -279,6 +287,9 @@
 
 
     </section>
+
+
+
 
 
 
