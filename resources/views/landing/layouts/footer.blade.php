@@ -47,6 +47,10 @@
                         <a href="#" class="footer-link">Restaurants</a>
                     </li>
 
+                    <li>
+                        <a href="#" class="footer-link">Prices</a>
+                    </li>
+
 
                 </ul>
 
