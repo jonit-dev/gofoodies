@@ -15,11 +15,10 @@ Route::get('/', function () {
     return view('landing.index');
 });
 
-Route::group(['prefix' => 'auth', 'namespace' => 'Session'], function () {
+Route::group(['prefix' => 'auth', 'namespace' => 'Session', 'middleware' => 'guest'], function () {
 
   Route::get('/register','RegisterController@create')->name('register-user');
-        
-
-
-
+    Route::post('/register/create-account','RegisterController@store')->name('create-account');
+            
+  
 });

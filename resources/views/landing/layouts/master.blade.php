@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="goFoodies">
 @include('landing.layouts.head')
 <body>
 @include('landing.layouts.navbar')

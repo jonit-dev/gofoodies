@@ -92,6 +92,11 @@
 </footer>
 
 
+<!--AngularJS-->
+<script src="{{asset('bower_components/angular/angular.min.js')}}"></script>
+<!--Angular App.Js Config-->
+<script src="{{asset('angular/app.js')}}"></script>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

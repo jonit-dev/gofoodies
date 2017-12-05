@@ -10,7 +10,7 @@
 
 
     <!--Live reload-->
-    <script src="http://localhost:35729/livereload.js?snipver=1"></script>﻿
+    {{--<script src="http://localhost:35729/livereload.js?snipver=1"></script>﻿--}}
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('bootstrap4/theme/css/minty-bootstrap.css')}}">

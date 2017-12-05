@@ -15,3 +15,12 @@ use Illuminate\Http\Request;
 
 Route::middleware('api')->get('/cities/{province}','API\FormsController@cities');
 Route::middleware('api')->get('/provinces','API\FormsController@provinces');
+
+
+//
+//Route::middleware('api')->get('/test',function(\App\Repositories\User\UserRepository $userRepository) {
+//
+//    return $userRepository->checkExists('joaopaulofurtado@live.com');
+//
+//
+//});
