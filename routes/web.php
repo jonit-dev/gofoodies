@@ -22,3 +22,13 @@ Route::group(['prefix' => 'auth', 'namespace' => 'Session', 'middleware' => 'gue
             
   
 });
+
+
+Route::group(['prefix' => 'restaurant', 'namespace' => 'Restaurant'], function () {
+
+      Route::get('/list','RestaurantController@index')->name('restaurant-list');
+
+ 
+});
+
+

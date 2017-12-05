@@ -1,0 +1,78 @@
+.restaurant-city-panel {
+    margin-top:1rem;
+    background-image: url("../gfx/landing/restaurants/vancouver.jpg");
+
+    /* Set a specific height */
+    height:15rem;
+
+    max-width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.restaurant-city-header {
+    color:white;
+    font-weight: bold;
+    font-size:2rem;
+    text-align: center;
+}
+
+.restaurant-city-subheader {
+    color:white;
+    font-size:1rem;
+    text-align: center;
+}
+
+.restaurant-navbar {
+
+    min-height:5rem;
+    width:100%;
+
+}
+
+.restaurant-navbar-select {
+    width:90% !important;
+    height:5rem !important;
+    border-style: none !important;
+    text-align-last:center;
+    text-align:center;
+    display: inline-block;
+    float:left;
+    outline:none !important;
+}
+
+.form-control:focus {
+    outline: none !important;
+    border-style: none !important;
+    box-shadow: none !important;
+}
+
+
+.restaurant-navbar-select > option {
+    font-weight: bold;
+    color: #545454;
+    border-color: #545454;
+    text-align: center;
+}
+
+.restaurant-navbar-search {
+    margin:.5rem;
+
+    width: 70%;
+    height:100%;
+    display: inline-block;
+    float:left;
+}
+.restaurant-navbar-search + button[type=submit] {
+margin-top:.4rem;
+}
+
+.restaurant-navbar-select-icon {
+    color:#cecece;
+    font-size:1.5rem;
+    margin-top:1.8rem;
+    display: inline-block;
+    float: left;
+}
